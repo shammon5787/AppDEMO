@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: transparent;
+}
+.nav-logo img {
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.nav-menues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.nav-menues li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-menues li:hover{
+    background-color: brown;
+    width: auto;
+    height: 3px;
+    color: rgb(241, 14, 14);
+}
